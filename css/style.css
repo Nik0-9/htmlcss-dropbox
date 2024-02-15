@@ -6,7 +6,7 @@
 }
 
 .debug {
-    border: 2px solid red;
+    border: 1px solid red;
 }
 
 /* GENERAL */
@@ -53,6 +53,11 @@ ul {
     margin: 0 auto;
 }
 
+.btn {
+    background-color: var(--color-color-button);
+    padding: 2px 5px;
+}
+
 /* FLEX UTILITY */
 .d-flex {
     display: flex;
@@ -60,4 +65,40 @@ ul {
 
 .s-between {
     justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+    align-content: center;
+}
+
+/* HEADER */
+header {
+    text-transform: capitalize;
+}
+
+nav{
+    width: 100%;
+    background-color: var(--color-main-bg);
+    padding: 3px 6px;
+}
+
+nav a{
+    color: var(--color-footer-bg);
+    margin: 2px 10px;
+}
+
+nav ul li{
+    padding: 3px 6px;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+/* MAIN */
+main{
+    margin-top: 50px;
 }
