@@ -67,6 +67,10 @@ ul {
     justify-content: space-between;
 }
 
+.dir-column{
+    flex-direction: column;
+}
+
 .align-center {
     align-items: center;
     align-content: center;
@@ -111,6 +115,7 @@ main {
 
 #hero h1{
     font-size: 4.5em;
+    font-weight: 800;
 }
 #hero-img{
     width: 100%;
@@ -122,4 +127,16 @@ main {
 }
 .hero-left{
     width: 70%;
+}
+#jumbo{
+    position: relative;
+    top: 50px;
+}
+#jumbo .btn{
+    width: 60%;
+}
+#jumbo i{
+    font-size: 4em;
+    padding-bottom: 46px;
+    color: var(--color-footer-bg);
 }
