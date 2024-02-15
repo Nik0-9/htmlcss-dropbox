@@ -109,8 +109,8 @@ main {
 }
 
 #hero {
-    /* max-height: 500px; */
     background-color: var(--color-color-contrast);
+    margin-bottom: 60px;
 }
 
 #hero h1{
@@ -133,7 +133,7 @@ main {
     top: 50px;
 }
 #jumbo .btn{
-    width: 60%;
+    width: 56%;
 }
 #jumbo i{
     font-size: 4em;
