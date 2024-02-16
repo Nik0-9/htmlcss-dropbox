@@ -35,6 +35,7 @@ body {
 
 a {
     text-decoration: none;
+    padding: 1em;
 }
 
 a:hover {
@@ -161,6 +162,7 @@ main {
     border: 1px solid black;
     width: 100%;
     gap: 20px;
+    padding: 1em;
 }
 
 .card-head{
@@ -168,11 +170,34 @@ main {
     text-align: center;
 }
 
+.info-bill{
+    paddin
+}
+
 .c-gray{
     color: darkgray;
 }
 
-#billing li{
-    text-indent: 1.5em;
-    padding: 10px;
+.list-icon{
+    margin-bottom: 15px;
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+.list-icon::before{
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+.list-icon.user::before{
+    content: '\f007';
+}
+
+.list-icon.folder::before{
+    content: '\f07b';
+}
+
+.list-icon.share::before{
+    content: '\f1e0';
 }
