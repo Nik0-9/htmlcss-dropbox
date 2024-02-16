@@ -80,6 +80,10 @@ ul {
     justify-content: flex-end;
 }
 
+.flex-center{
+    justify-content: center;
+}
+
 .s-between {
     justify-content: space-between;
 }
@@ -291,4 +295,59 @@ main {
 
 .calc3 {
     width: calc(100% / 3 - 40px);
+}
+
+/* BUSINESS */
+#business h2{
+    font-size: 2.4em;
+}
+
+#business a{
+    text-decoration: underline;
+    color: var(--color-color-button)
+}
+
+#business .left{
+    width: 70%;
+}
+
+/* SQUARE */
+
+
+.calc-2{
+    width: calc(100% / 2);
+    aspect-ratio: 1 / 1;
+}
+
+#square 
+img{
+    display: block;
+    width: 50%;
+    filter: invert(100%);
+}
+
+
+.sq1{
+    background-color: var(--color-main-square1);
+}
+.sq2{
+    background-color: var(--color-square2);
+}
+.sq3{
+    background-color: var(--color-square3);
+}
+.sq4{
+    background-color: var(--color-suqare4);
+}
+.sq5{
+    background-color:var(--color-square5);
+}
+.sq6{
+    background-color: var(--color-suqare6);
+}
+.sq7{
+    background-color: var(--color-squate7);
+}
+.sq8{
+    background-color: var(--color-square8);
 }
