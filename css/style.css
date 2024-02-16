@@ -154,7 +154,7 @@ main {
 /* SECTION BILLING */
 
 .gap{
-    gap: 80px;
+    gap: 50px;
 }
 
 .card{
@@ -166,10 +166,6 @@ main {
 .card-head{
     border-bottom: 1px solid black;
     text-align: center;
-}
-
-.info-bill{
-    paddin
 }
 
 .c-gray{
@@ -208,11 +204,21 @@ main {
     margin-top: 40px;
 }
 
+.mb{
+    padding-bottom: 40px;
+}
+
 .mlr{
     margin: 0 20px;
+}
+
+.p-big{
+    padding: 10px;
 }
 
 .list-icon.check::before{
     content: '\f00c';
     color: var(--color-color-button);
 }
+
+/* ENTERPRISE */
