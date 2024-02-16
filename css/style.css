@@ -61,13 +61,13 @@ ul {
     color: var(--color-main-bg);
 }
 
-.btn-white{
+.btn-white {
     background-color: var(--color-main-bg);
     color: var(--color-footer-bg);
     border: 1px solid black;
 }
 
-.margin-section{
+.margin-section {
     margin-top: 100px;
 }
 
@@ -96,6 +96,10 @@ ul {
 .align-center {
     align-items: center;
     align-content: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
 
 /* HEADER */
@@ -245,7 +249,7 @@ main {
     padding: 10px;
 }
 
-.mt20{
+.mt20 {
     margin-top: 20px;
 }
 
@@ -265,15 +269,26 @@ main {
 .billing-right {
     width: 30%;
 }
+
 /* PARTNER */
-.partner-left{
+.partner-left {
     width: 60%;
 }
 
-.partner-right{
+.partner-right {
     width: 40%;
 }
 
-#partner img{
-    width:100%
+#partner img {
+    width: 100%
+}
+
+/* OPERATION */
+
+#operation img {
+    width: 100%;
+}
+
+.calc3 {
+    width: calc(100% / 3 - 40px);
 }
