@@ -61,9 +61,23 @@ ul {
     color: var(--color-main-bg);
 }
 
+.btn-white{
+    background-color: var(--color-main-bg);
+    color: var(--color-footer-bg);
+    border: 1px solid black;
+}
+
+.margin-section{
+    margin-top: 100px;
+}
+
 /* FLEX UTILITY */
 .d-flex {
     display: flex;
+}
+
+.flex-end {
+    justify-content: flex-end;
 }
 
 .s-between {
@@ -74,6 +88,11 @@ ul {
     flex-direction: column;
 }
 
+.align-start {
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
 .align-center {
     align-items: center;
     align-content: center;
@@ -82,6 +101,10 @@ ul {
 /* HEADER */
 header {
     text-transform: capitalize;
+}
+
+.shadow {
+    box-shadow: 0 2px 4px darkgray;
 }
 
 nav {
@@ -111,6 +134,7 @@ nav ul li {
 main {
     margin-top: 50px;
 }
+
 /* SECTION HERO */
 #hero {
     background-color: var(--color-color-contrast);
@@ -133,7 +157,7 @@ main {
     width: 30%;
 }
 
-.hero-left {
+.hero-right {
     width: 70%;
 }
 
@@ -151,74 +175,105 @@ main {
     padding-bottom: 47px;
     color: var(--color-footer-bg);
 }
+
 /* SECTION BILLING */
 
-.gap{
+.gap {
     gap: 50px;
 }
 
-.card{
+.under-l {
+    text-decoration: underline;
+}
+
+.card {
     border: 1px solid black;
     width: 100%;
     gap: 20px;
 }
 
-.card-head{
+.card-head {
     border-bottom: 1px solid black;
     text-align: center;
 }
 
-.c-gray{
+.c-gray {
     color: darkgray;
 }
 
-.list-icon{
+.list-icon {
     margin-bottom: 15px;
     padding-left: 1em;
     text-indent: -1em;
 }
 
-.list-icon::before{
+.list-icon::before {
     font-family: 'Font Awesome 6 Free';
     font-weight: 900;
     margin-right: 5px;
 }
 
-.list-icon.user::before{
+.list-icon.user::before {
     content: '\f007';
 }
 
-.list-icon.folder::before{
+.list-icon.folder::before {
     content: '\f07b';
 }
 
-.list-icon.share::before{
+.list-icon.share::before {
     content: '\f1e0';
 }
 
-#billing a{
+#billing a {
     text-align: center;
 }
 
-.mt{
+.mt {
     margin-top: 40px;
 }
 
-.mb{
+.mb {
     padding-bottom: 40px;
 }
 
-.mlr{
+.mlr {
     margin: 0 20px;
 }
 
-.p-big{
+.p-big {
     padding: 10px;
 }
 
-.list-icon.check::before{
+.mt20{
+    margin-top: 20px;
+}
+
+.padd {
+    padding: 30px;
+}
+
+.list-icon.check::before {
     content: '\f00c';
     color: var(--color-color-button);
 }
 
-/* ENTERPRISE */
+.billing-left {
+    width: 80%;
+}
+
+.billing-right {
+    width: 30%;
+}
+/* PARTNER */
+.partner-left{
+    width: 60%;
+}
+
+.partner-right{
+    width: 40%;
+}
+
+#partner img{
+    width:100%
+}
