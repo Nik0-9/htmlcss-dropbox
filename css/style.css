@@ -35,7 +35,6 @@ body {
 
 a {
     text-decoration: none;
-    padding: 1em;
 }
 
 a:hover {
@@ -162,7 +161,6 @@ main {
     border: 1px solid black;
     width: 100%;
     gap: 20px;
-    padding: 1em;
 }
 
 .card-head{
@@ -200,4 +198,21 @@ main {
 
 .list-icon.share::before{
     content: '\f1e0';
+}
+
+#billing a{
+    text-align: center;
+}
+
+.mt{
+    margin-top: 40px;
+}
+
+.mlr{
+    margin: 0 20px;
+}
+
+.list-icon.check::before{
+    content: '\f00c';
+    color: var(--color-color-button);
 }
