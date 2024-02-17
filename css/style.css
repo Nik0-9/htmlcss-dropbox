@@ -394,14 +394,26 @@ img:not(#square-center){
 #faq div:not(div>div){
     border-top: 1px solid black;
 }
-/* #faq div{
-    border-bottom: 1px solid black;
-} */
+/* #faq */
 
 .align-baseline{
     align-items: baseline;
 }
 
 .bord-bot{
-    border-top: 1px solid black;
+    border: 0px solid black;
+    margin-bottom: 40px;
 }
+/* FOOTER */
+#foot{
+    background-color: var(--color-footer-bg);
+    color: var(--color-main-bg);
+}
+#foot a{
+    color: var(--color-main-bg);
+}
+
+#foot li{
+    margin: 20px 0 ;
+}
+
