@@ -80,6 +80,12 @@ ul {
     justify-content: flex-end;
 }
 
+.btn-free{
+    background-color: var(--color-main-bg);
+    border: none;
+    padding: 5px 20px;
+}
+
 .flex-center{
     justify-content: center;
 }
@@ -104,6 +110,10 @@ ul {
 
 .wrap {
     flex-wrap: wrap;
+}
+
+.self-center{
+    align-self: center;
 }
 
 /* HEADER */
@@ -320,7 +330,7 @@ main {
 }
 
 #square 
-img{
+img:not(#square-center){
     display: block;
     width: 50%;
     filter: invert(100%);
@@ -350,4 +360,25 @@ img{
 }
 .sq8{
     background-color: var(--color-square8);
+}
+#square-center{
+    width: 60%;
+}
+/* FREE-TRIAL */
+#free-trial{
+    background-color: var(--color-color-contrast);
+}
+.free-trial-left{
+    width: 70%;
+}
+
+.free-trial-right{
+    width: 30%;
+}
+
+#free-trial h2{
+    font-size: 3em;
+    color: var(--color-square2);
+    padding: 100px 0;
+    
 }
