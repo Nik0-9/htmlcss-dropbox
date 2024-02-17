@@ -380,5 +380,28 @@ img:not(#square-center){
     font-size: 3em;
     color: var(--color-square2);
     padding: 100px 0;
-    
+}
+/* FAQ */
+#faq h2{
+    padding-bottom: 50px;
+    font-size: 2.5em;    
+}
+
+#faq h4{
+    padding: 40px 0;
+}
+
+#faq div:not(div>div){
+    border-top: 1px solid black;
+}
+/* #faq div{
+    border-bottom: 1px solid black;
+} */
+
+.align-baseline{
+    align-items: baseline;
+}
+
+.bord-bot{
+    border-top: 1px solid black;
 }
