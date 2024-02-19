@@ -214,6 +214,18 @@ nav ul li {
     z-index: 1000;
 }
 
+.hide{
+    display: none;
+    background-color: #0d2481;
+    position: relative;
+    top: 70px;
+    color: white;
+}
+
+.hover1:hover .hide{
+    display: block;
+}
+
 /* MAIN */
 main {
     margin-top: 60px;
@@ -464,6 +476,9 @@ main {
 }
 
 .details {
+    border-top: 1px solid darkgray;
+    width: 80%;
+    text-align: center;
     padding-top: 10px;
     display: none;
 }
