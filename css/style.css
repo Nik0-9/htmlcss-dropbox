@@ -137,6 +137,10 @@ ul {
     align-items: baseline;
 }
 
+.grow {
+    flex-grow: 2;
+}
+
 /* DIMENSION */
 .mt40 {
     margin-top: 40px;
@@ -403,8 +407,17 @@ main {
     background-color: var(--color-square8);
 }
 
-.bg-color-gray {
+#square .center {
+    height: 100%;
     background-color: var(--color-big-square);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    aspect-ratio: 1 / 1;
+}
+
+.flex-start {
+    align-items: flex-start;
 }
 
 #logo-square-center {
@@ -442,13 +455,22 @@ main {
 
 #faq h4 {
     padding: 40px 0;
+    cursor: pointer;
+
 }
 
 #faq div:not(div > div) {
     border-top: 1px solid black;
 }
 
-/* #faq */
+.details {
+    display: none;
+}
+
+#faq h4,
+i:hover .details {
+    display: block;
+}
 
 .bord-bot {
     border: 0px solid black;
