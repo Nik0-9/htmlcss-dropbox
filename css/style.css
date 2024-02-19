@@ -220,16 +220,20 @@ main {
 
 #jumbo {
     position: relative;
-    top: 50px;
+    top: 60px;
 }
 
 #jumbo i {
     font-size: 4em;
-    padding-bottom: 47px;
+    padding-bottom: 70px;
     color: var(--color-footer-bg);
 }
 
 /* SECTION BILLING */
+
+#billing input{
+    margin-right:10px;
+}
 
 .gap {
     gap: 50px;
@@ -414,6 +418,10 @@ main {
 #faq h2 {
     padding-bottom: 50px;
     font-size: 2.5em;
+}
+
+.scroll-margin{
+    scroll-margin: 60px;
 }
 
 #faq h4 {
