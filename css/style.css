@@ -162,11 +162,11 @@ ul {
     margin: 0 20px;
 }
 
-.p-big {
+.padd-btn {
     padding: 10px;
 }
 
-.padd {
+.padd30 {
     padding: 30px;
 }
 
@@ -420,7 +420,6 @@ main {
 }
 
 #square .center {
-    height: 100%;
     background-color: var(--color-big-square);
     display: flex;
     flex-direction: column;
